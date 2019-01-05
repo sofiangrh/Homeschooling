@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="6"
+    tools:context="com.almanara.ali.homeschool.com.almanara.homeschool.home.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_weight="0"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/Signin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/colorPrimary"
+            android:elevation="5dp"
+            android:padding="8dp"
+            android:text="@string/signin"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorBack"
+            android:translationZ="5dp" />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/colorPrimary"
+            android:elevation="10000dp"
+            android:padding="8dp"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorBack"
+            android:translationZ="10000dp" />
+
+        <Button
+            android:id="@+id/Guest"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/colorPrimary"
+            android:elevation="5dp"
+            android:padding="8dp"
+            android:text="@string/guest"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorBack"
+            android:translationZ="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/elmanara_app"
+            android:textColor="@color/colorBack"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/all_rights_reserved_2017"
+            android:textColor="@color/colorBack"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+</LinearLayout>

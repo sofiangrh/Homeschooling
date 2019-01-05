@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/color_question"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>
+
+    <TextView
+        android:id="@+id/speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="@string/speech"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>
+
+    <!--<TextView-->
+    <!--android:id="@+id/object"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Object Question"-->
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/trueOrFalse"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="True or False Question"-->
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>-->
+    <TextView
+        android:id="@+id/multipleChoices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="@string/multiple_choice"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>
+
+    <TextView
+        android:id="@+id/imagesMulti"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/images_multiple_choice"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>
+
+    <TextView
+        android:padding="8dp"
+        android:id="@+id/textDetection"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/text_detection"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>
+
+    <TextView
+        android:padding="8dp"
+        android:id="@+id/matching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="@string/matching"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>
+
+</LinearLayout>

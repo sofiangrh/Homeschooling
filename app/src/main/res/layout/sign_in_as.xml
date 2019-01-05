@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <android.support.v4.view.ViewPager
+            android:clickable="false"
+            android:id="@+id/circlePager"
+            android:layout_gravity="center|bottom"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/elmanara_app"
+            android:textColor="@color/colorBack"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/all_rights_reserved_2017"
+            android:textColor="@color/colorBack"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

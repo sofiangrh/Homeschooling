@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorBack</item>
+    </style>
+
+    <style name="AppTheme.Instructor" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/parent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_parent</item>
+        <item name="colorAccent">@color/parent</item>
+        <item name="colorControlNormal">@color/colorBack</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="CardViewStyle" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/card_press</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/rate</item>
+        <item name="colorControlActivated">@color/rate</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--<style-->
+        <!--name="CustomStyle"-->
+        <!--parent="android:Theme.Dialog">-->
+        <!--<item-->
+            <!--name="android:windowBackground">@color/transparent</item>-->
+        <!--<item-->
+            <!--name="android:windowContentOverlay">@null</item>-->
+    <!--</style>-->
+    <!--<style name="student" parent="Theme.AppCompat">-->
+        <!--<item name="colorPrimary">#770fb9</item>-->
+        <!--<item name="colorPrimaryDark">#770fb9</item>-->
+        <!--<item name="colorAccent">#770fb9</item>-->
+    <!--</style>-->
+
+    <!--<style name="instructor" parent="Theme.AppCompat">-->
+        <!--<item name="colorPrimary">#eba505</item>-->
+        <!--<item name="colorPrimaryDark">#eba505</item>-->
+        <!--<item name="colorAccent">#eba505</item>-->
+    <!--</style>-->
+
+    <!--<style name="parent" parent="Theme.AppCompat">-->
+        <!--<item name="colorPrimary">#03879f</item>-->
+        <!--<item name="colorPrimaryDark">#03879f</item>-->
+        <!--<item name="colorAccent">#03879f</item>-->
+    <!--</style>-->
+</resources>

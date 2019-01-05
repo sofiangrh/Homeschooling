@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/courseName"
+        android:inputType="text"
+        android:hint="@string/course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/descriptionS"
+        android:inputType="text"
+        android:hint="@string/course_descriptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/subjectS"
+        android:inputType="text"
+        android:hint="@string/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/choosefromGallery"
+        android:text="@string/choose_from_gallery"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent" />
+
+</LinearLayout>
