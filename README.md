@@ -1,5 +1,5 @@
 # Homeschooling
-Aplikasi Pendidikan berbasis Android dengan pelajaran & pertanyaan interaktif.
+Aplikasi Pendidikan berbasis Android dengan pembelajaran & pertanyaan interaktif.
 
 ## Tampilan Aplikasi
 ![ScreenShots](/all-land.jpg?raw=true)
